@@ -1,0 +1,94 @@
+.jumbotron {
+  padding-top: 15rem;
+  background-color: #e2edff;
+  width: 100%;
+  min-height: 650px;
+  background-image: url(https://noticiaspueblabla.com/wp-content/uploads/2019/11/nissan-versa-2020-777461.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-right: 5rem;
+}
+
+#home {
+  color: beige;
+}
+
+section {
+  position: relative;
+}
+
+#harga,
+#service {
+  padding-top: 5rem;
+}
+
+#service {
+  background-color: rgb(243, 239, 239);
+}
+
+#testimoni {
+  background-color: white;
+}
+
+.breadcrumb a,
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+a,
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.btn {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* 
+.card {
+  border-radius: 10%;
+  box-shadow: 5%;
+} */
+
+body {
+  background-color: white;
+  width: 100%;
+}
+
+.fa {
+  color: rgb(163, 163, 163);
+}
+
+#testimoni .card {
+  border: 0rem;
+  background-color: #e2edff;
+}
+
+#harga .card {
+  background-color: rgb(243, 239, 239);
+}
+
+.btn-custom {
+  background-color: rgb(155, 13, 13);
+  border-radius: 10%;
+  border: 0%;
+  box-shadow: 5%;
+}
+
+.fa-star {
+  color: orange;
+}
+
+.modal-body img {
+  height: 200px;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  flex-shrink: none;
+  background-color: #f3efef;
+}

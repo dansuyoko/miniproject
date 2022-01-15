@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <title>RENTALCARS.ID | Car Rent</title>
+</head>
+
+<body>
+    <div class="halutama">
+        <div class="alert alert-warning alert-dismissible fade show mb-0 text-center" role="alert">
+            <strong>PROMO 2022!</strong> Diskon hingga 50%.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm rounded-bottom">
+            <div class="container">
+                <a href="index.html" class="navbar-brand"><i class="fa fa-car p-1"></i>RENTALCARS.ID</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav ms-auto">
+
+                        <a class="nav-link active" href="#home">Home</a>
+                        <a class="nav-link active" href="#harga">Harga</a>
+                        <a class="nav-link active" href="#service">Service</a>
+                        <a class="nav-link active" href="#testimoni">Testimoni</a>
+                        <a class="nav-link active" href="about.html">About Us</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- home -->
+    <div class="jumbotron text-center" id="home">
+
+        <div class="row justify-content-end">
+            <div class="col-6 fw-normal">
+                <h1>Welcome to RENTALCARS.ID</h1>
+                <p>Nikmati Perjalanan Liburan di Seluruh Indonesia bersama <b>RENTALCARS.ID</b>. Harga Sewa Murah,
+                    Armada
+                    Lengkap, Transportasi Aman dan Nyaman</p>
+                <a class="btn btn-outline-light scrollto fw-bold" href="#harga">Get Started</a>
+            </div>
+        </div>
+    </div>
+    <!-- Penutup Home -->
+
+    <!-- Harga -->
+    <section id="harga">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col p-4 text-dark">
+                    <h2>HARGA RENTAL KENDARAAN</h2>
+                    <p>Tarif Murah dan Memuaskan</p>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="container mb-5 p-5">
+                    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
+                        data-bs-interval="false">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title text-center">COROLLA CROSS</h5>
+                                                <img src="./assets/corolla-cross.png" class="card-img-top" alt="...">
+                                                <p class="card-text">Mulai dari Rp. 500.000,-/Hari (12 Jam) Tarif
+                                                    Dalam Kota</p>
+                                                <button class="btn btn-primary btn-custom" data-bs-toggle="modal"
+                                                    data-bs-target="#modalPreviewCorollaCross">Lihat Detail</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Modal Preview Corolla Cross -->
+                                    <div class="modal fade" id="modalPreviewCorollaCross">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">COROLLA CROSS</h5>
+                                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                                </div>
+                                                <div class="modal-body text-center">
+                                                    <img src="./assets/corolla-cross.png" />
+                                                    <h4>
+                                                        <ul>
+                                                            <i class="fa fa-check-circle-o ">
+                                                                BBM</i>
+                                                            <i class="fa fa-check-circle-o ">
+                                                                Tol</i>
+                                                            <i class="fa fa-check-circle-o ">
+                                                                Driver</i>
+                                                            <i class="fa fa-times-circle-o ">
+                                                                Parkir</i>
+                                                            <i class="fa fa-times-circle-o "> Makan
+                                                                Driver</i>
+                                                        </ul>
+                                                    </h4>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button class="btn btn-success"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Penutup Modal Corolla Cross -->
+                                    <div class="col-3">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title text-center">FORTUNER GR NEW</h5>
+                                                <img src="./assets/fortuner-gr-NEW.png" class="card-img-top" alt="...">
+                                                <p class="card-text">Mulai dari Rp. 750.000,-/Hari (12 Jam) Tarif
+                                                    Dalam Kota</p>
+                                                <button class="btn btn-primary btn-custom" data-bs-toggle="modal"
+                                                    data-bs-target="#modalPreviewFortunerGR">Lihat Detail</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Modal Preview Fortuner GR -->
+                                    <div class="modal fade" id="modalPreviewFortunerGR">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">FORTUNER GR NEW</h5>
+                                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                                </div>
+                                                <div class="modal-body fa-2x text-center">
+                                                    <img src="./assets/fortuner-gr-NEW.png" />
+                                                    <h4>
+                                                        <ul>
+                                                            <i class="fa fa-check-circle-o ">
+                                                                BBM</i>
+                                                            <i class="fa fa-check-circle-o ">
+                                                                Tol</i>
+                                                            <i class="fa fa-check-circle-o ">
+                                                                Driver</i>
+                                                            <i class="fa fa-times-circle-o ">
+                                                                Parkir</i>
+                                                            <i class="fa fa-times-circle-o "> Makan
+                                                                Driver</i>
+                                                        </ul>
+                                                    </h4>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button class="btn btn-success"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Penutup Modal Fortuner GR -->
+                                    <div class="col-3">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title text-center">HILUX D CAB</h5>
+                                                <img src="./assets/hilux-d-cab-v-type.png" class="card-img-top"
+                                                    alt="...">
+                                                <p class="card-text">Mulai dari Rp. 900.000,-/Hari (12 Jam) Tarif
+                                                    Dalam Kota</p>
+                                                <button class="btn btn-primary btn-custom" data-bs-toggle="modal"
+                                                    data-bs-target="#modalPreviewHiluxDCab">Lihat Detail</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Modal Preview Hilux D Cab -->
+                                    <div class="modal fade" id="modalPreviewHiluxDCab">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">HILUX D CAB</h5>
+                                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                                </div>
+                                                <div class="modal-body fa-2x text-center">
+                                                    <img src="./assets/hilux-d-cab-v-type.png" />
+                                                    <ul>
+                                                        <i class="fa fa-check-circle-o fw-light text-primary">
+                                                            BBM</i>
+                                                        <i class="fa fa-check-circle-o fw-light text-primary">
+                                                            Tol</i>
+                                                        <i class="fa fa-check-circle-o fw-light text-primary">
+                                                            Driver</i>
+                                                        <i class="fa fa-times-circle-o fw-light text-primary">
+                                                            Parkir</i>
+                                                        <i class="fa fa-times-circle-o fw-light text-primary"> Makan
+                                                            Driver</i>
+                                                    </ul>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button class="btn btn-success"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Penutup Modal Hilux D Cab -->
+                                    <div class="col-3">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title text-center">INNOVA 2020</h5>
+                                                <img src="./assets/innova-2020.png" class="card-img-top" alt="...">
+                                                <p class="card-text">Mulai dari Rp. 700.000,-/Hari (12 Jam) Tarif
+                                                    Dalam Kota</p>
+                                                <button class="btn btn-primary btn-custom" data-bs-toggle="modal"
+                                                    data-bs-target="#modalPreviewInnova2020">Lihat Detail</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Modal Preview Innova 2020 -->
+                                    <div class="modal fade" id="modalPreviewInnova2020">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">INNOVA 2020</h5>
+                                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                                </div>
+                                                <div class="modal-body fa-2x text-center">
+                                                    <img src="./assets/innova-2020.png" />
+                                                    <ul>
+                                                        <i class="fa fa-check-circle-o fw-light text-primary">
+                                                            BBM</i>
+                                                        <i class="fa fa-check-circle-o fw-light text-primary">
+                                                            Tol</i>
+                                                        <i class="fa fa-check-circle-o fw-light text-primary">
+                                                            Driver</i>
+                                                        <i class="fa fa-times-circle-o fw-light text-primary">
+                                                            Parkir</i>
+                                                        <i class="fa fa-times-circle-o fw-light text-primary"> Makan
+                                                            Driver</i>
+                                                    </ul>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button class="btn btn-success"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Penutup Modal Innova -->
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title text-center">ALPHARD 2021</h5>
+                                                <img src="./assets/ALPHARD 2021.png" class="card-img-top" alt="Alphard">
+                                                <p class="card-text">Mulai dari Rp. 950.000,-/Hari (12 Jam) Tarif
+                                                    Dalam Kota</p>
+                                                <button class="btn btn-primary btn-custom" data-bs-toggle="modal"
+                                                    data-bs-target="#modalPreviewAlphard2021">Lihat Detail</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Modal Preview Alphard 2021 -->
+                                    <div class="modal fade" id="modalPreviewAlphard2021">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">ALPHARD 2021</h5>
+                                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                                </div>
+                                                <div class="modal-body fa-2x text-center">
+                                                    <img src="./assets/ALPHARD 2021.png" />
+                                                    <ul>
+                                                        <i class="fa fa-check-circle-o fw-light text-primary">
+                                                            BBM</i>
+                                                        <i class="fa fa-check-circle-o fw-light text-primary">
+                                                            Tol</i>
+                                                        <i class="fa fa-check-circle-o fw-light text-primary">
+                                                            Driver</i>
+                                                        <i class="fa fa-times-circle-o fw-light text-primary">
+                                                            Parkir</i>
+                                                        <i class="fa fa-times-circle-o fw-light text-primary"> Makan
+                                                            Driver</i>
+                                                    </ul>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button class="btn btn-success"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Penutup Modal Alphard 2021 -->
+                                    <div class="col-3">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title text-center">AVANZA 2021</h5>
+                                                <img src="./assets/avanza-2021-NEW.png" class="card-img-top"
+                                                    alt="Avanza">
+                                                <p class="card-text">Mulai dari Rp. 350.000,-/Hari (12 Jam) Tarif
+                                                    Dalam Kota</p>
+                                                <button class="btn btn-primary btn-custom" data-bs-toggle="modal"
+                                                    data-bs-target="#modalPreviewAvanza2021">Lihat Detail</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Modal Preview Avanza 2021 -->
+                                    <div class="modal fade" id="modalPreviewAvanza2021">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">AVANZA 2021</h5>
+                                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                                </div>
+                                                <div class="modal-body fa-2x text-center">
+                                                    <img src="./assets/avanza-2021-NEW.png" />
+                                                    <ul>
+                                                        <i class="fa fa-check-circle-o fw-light text-primary">
+                                                            BBM</i>
+                                                        <i class="fa fa-check-circle-o fw-light text-primary">
+                                                            Tol</i>
+                                                        <i class="fa fa-check-circle-o fw-light text-primary">
+                                                            Driver</i>
+                                                        <i class="fa fa-times-circle-o fw-light text-primary">
+                                                            Parkir</i>
+                                                        <i class="fa fa-times-circle-o fw-light text-primary"> Makan
+                                                            Driver</i>
+                                                    </ul>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button class="btn btn-success"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Penutup Modal Avanza 2021 -->
+                                    <div class="col-3">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title text-center">CAMRY 2021</h5>
+                                                <img src="./assets/camry-2021-NEW.png" class="card-img-top" alt="...">
+                                                <p class="card-text">Mulai dari Rp. 800.000,-/Hari (12 Jam) Tarif
+                                                    Dalam Kota</p>
+                                                <button class="btn btn-primary btn-custom" data-bs-toggle="modal"
+                                                    data-bs-target="#modalPreviewCamry2021">Lihat Detail</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Modal Preview Camry 2021 -->
+                                    <div class="modal fade" id="modalPreviewCamry2021">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">CAMRY 2021</h5>
+                                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                                </div>
+                                                <div class="modal-body fa-2x text-center">
+                                                    <img src="./assets/camry-2021-NEW.png" />
+                                                    <ul>
+                                                        <i class="fa fa-check-circle-o fw-light text-primary">
+                                                            BBM</i>
+                                                        <i class="fa fa-check-circle-o fw-light text-primary">
+                                                            Tol</i>
+                                                        <i class="fa fa-check-circle-o fw-light text-primary">
+                                                            Driver</i>
+                                                        <i class="fa fa-times-circle-o fw-light text-primary">
+                                                            Parkir</i>
+                                                        <i class="fa fa-times-circle-o fw-light text-primary"> Makan
+                                                            Driver</i>
+                                                    </ul>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button class="btn btn-success"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Penutup Modal Camry 2021 -->
+                                    <div class="col-3">
+                                        <div class="card">
+                                            <div class="card-body text-center">
+                                                <h5 class="card-title text-center">COROLLA ALTIS</h5>
+                                                <img src="./assets/COROLLA-ALTIS.png" class="card-img-top" alt="...">
+                                                <p class="card-text">Mulai dari Rp. 750.000,-/Hari (12 Jam) Tarif
+                                                    Dalam Kota</p>
+                                                <button class="btn btn-primary btn-custom" data-bs-toggle="modal"
+                                                    data-bs-target="#modalPreviewAltis">Lihat Detail</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Modal Preview Corolla Altis -->
+                                    <div class="modal fade" id="modalPreviewAltis">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title">COROLLA ALTIS</h5>
+                                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                                </div>
+                                                <div class="modal-body fa-2x text-center">
+                                                    <img src="./assets/camry-2021-NEW.png" />
+                                                    <ul>
+                                                        <i class="fa fa-check-circle-o fw-light text-primary">
+                                                            BBM</i>
+                                                        <i class="fa fa-check-circle-o fw-light text-primary">
+                                                            Tol</i>
+                                                        <i class="fa fa-check-circle-o fw-light text-primary">
+                                                            Driver</i>
+                                                        <i class="fa fa-times-circle-o fw-light text-primary">
+                                                            Parkir</i>
+                                                        <i class="fa fa-times-circle-o fw-light text-primary"> Makan
+                                                            Driver</i>
+                                                    </ul>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button class="btn btn-success"
+                                                        data-bs-dismiss="modal">Close</button>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Penutup Modal Camry 2021 -->
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button"
+                            data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                            <span class="carousel-control-next-icon " aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Penutup Harga -->
+
+
+    <!-- Service -->
+    <div class="bg-light">
+        <section id="service">
+            <div class="container rounded">
+                <div class="row text-center">
+                    <div class="col p-xl-5 mb-5">
+                        <h2>MENGAPA MEMILIH RENTALCARS.ID</h2>
+                        <p>Rental Mobil Terbaik di Indonesia</p>
+                    </div>
+                </div>
+                <div class="row text-center pb-5">
+                    <div class="col-3">
+                        <div class="card rounded-0">
+                            <span class="fa fa-4x text-center mt-3">
+                                <i class="fa fa-thumbs-up"></i>
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Rekomendasi Terbaik</h5>
+                                <p class="card-text">Didukung oleh tim manajemen yang berpengalaman, sistem
+                                    yang terintegrasi, dan
+                                    memahami
+                                    kebutuhan pelanggan dalam hal rental mobil di seluruh Indonesia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card rounded-0">
+                            <span class="fa fa-4x text-center mt-3">
+                                <i class="fa fa-user-plus"></i>
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Driver Berpengalaman</h5>
+                                <p class="card-text">Kami memberikan pengemudi yang berpengalaman lebih dari
+                                    5 tahun di
+                                    seluruh Indonesia, ramah, santun, dan tetap
+                                    memprioritaskan keamanan dalam berkendara</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card rounded-0">
+                            <span class="fa fa-4x text-center mt-3">
+                                <i class="fa fa-car"></i>
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title">Armada Lengkap</h5>
+                                <p class="card-text">Kami memberikan armada mobil yang nyaman dan kami
+                                    senantiasa
+                                    melakukan perawatan berkala untuk memastikan kondisi yang prima untuk semua
+                                    kendaraan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="card rounded-0">
+                            <span class="fa fa-4x text-center mt-3">
+                                <i class="fa fa-exchange"></i>
+                            </span>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Mobil Pengganti</h5>
+                                <p class="card-text">Pelayanan kami disertai dengan fasilitas mobil pengganti dimana
+                                    jika terjadi kerusakan pada kendaraan, maka kami menyediakan mobil
+                                    pengganti tanpa biaya tambahan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+    <section id="testimoni">
+        <div class="container rounded">
+            <div class="row text-center">
+                <div class="col mb-xl-5 p-4 mt-5">
+                    <h2>TESTIMONI PELANGGAN</h2>
+                </div>
+            </div>
+            <div class="row text-center pb-5 mt-4 mb-5">
+                <div class="col-3">
+                    <div class="card rounded">
+                        <img src="./assets/Dian Sastro.PNG" class="card-img-top p-3" alt="Dian Satro">
+                        <div class="card-body">
+                            <h5 class="card-title">Dian Sastro</h5>
+                            <div class="bintang">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p class="card-text">Sudah beberapa kali menggunakan jasa Rentalcars.id dan selalu puas
+                                dg
+                                pelayanannya..Proses order lancar dan mudah, kondisi kendaraan sangat baik, driver
+                                juga
+                                ramah dan cara berkendara aman. Very recommended</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card rounded">
+                        <img src="./assets/Dian Sastro.PNG" class="card-img-top p-3" alt="Dian Satro">
+                        <div class="card-body">
+                            <h5 class="card-title">Dian Sastro</h5>
+                            <div class="bintang">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p class="card-text">Sudah beberapa kali menggunakan jasa Rentalcars.id dan selalu puas
+                                dg
+                                pelayanannya..Proses order lancar dan mudah, kondisi kendaraan sangat baik, driver
+                                juga
+                                ramah dan cara berkendara aman. Very recommended</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card rounded">
+                        <img src="./assets/Dian Sastro.PNG" class="card-img-top p-3" alt="Dian Satro">
+                        <div class="card-body">
+                            <h5 class="card-title">Dian Sastro</h5>
+                            <div class="bintang">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p class="card-text">Sudah beberapa kali menggunakan jasa Rentalcars.id dan selalu puas
+                                dg
+                                pelayanannya..Proses order lancar dan mudah, kondisi kendaraan sangat baik, driver
+                                juga
+                                ramah dan cara berkendara aman. Very recommended</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card rounded">
+                        <img src="./assets/Dian Sastro.PNG" class="card-img-top p-3" alt="Dian Satro">
+                        <div class="card-body">
+                            <h5 class="card-title">Dian Sastro</h5>
+                            <div class="bintang">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p class="card-text">Sudah beberapa kali menggunakan jasa Rentalcars.id dan selalu puas
+                                dg
+                                pelayanannya..Proses order lancar dan mudah, kondisi kendaraan sangat baik, driver
+                                juga
+                                ramah dan cara berkendara aman. Very recommended</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#f3efef" fill-opacity="1"
+                d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    </div>
+    <!-- Penutup Service -->
+    <!-- Testimoni -->
+    <!-- Penutup Testimoni -->
+
+    </div>
+    <footer class=" text-center p-3">
+        <div class="row align-content-center justify-content-center">
+            <div class="card border-0 " style="width: 40%; background-color: #f3efef;">
+                <div class="card-header border-0 " style="background-color: #f3efef;">Register Form</div>
+                <div class="card-body text-start">
+                    <form>
+                        <div class="form-group mt-3">
+                            <label for="nama">Nama</label>
+                            <input type="text" class="form-control" id="nama">
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group mt-3">
+                            <label for="password">Massage</label>
+                            <textarea class="form-control" placeholder="Leave a comment here"
+                                id="floatingTextarea"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-3">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container pt-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fa fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fa fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fa fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fa fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fa fa-linkedin"></i></a>
+                <!-- Github -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="08100000000" role="button"
+                    data-mdb-ripple-color="dark"><i class="fa fa-phone"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-dark" href="https://rentalcars.id/">RENTALCARS.ID</a>
+        </div>
+    </footer>
+
+
+    <!-- penutup footer -->
+
+</body>
+
+</html>
