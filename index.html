@@ -555,7 +555,8 @@
                     <div class="card rounded">
                         <img src="./assets/Dian Sastro.PNG" class="card-img-top p-3" alt="Dian Satro">
                         <div class="card-body">
-                            <h5 class="card-title">Dian Sastro</h5>
+                            <h5 class="card-title" onmouseover="changeTextElement(this)"
+                                onmouseout="backTextElement(this)">Dian Sastro</h5>
                             <div class="bintang">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -575,7 +576,8 @@
                     <div class="card rounded">
                         <img src="./assets/Dian Sastro.PNG" class="card-img-top p-3" alt="Dian Satro">
                         <div class="card-body">
-                            <h5 class="card-title">Dian Sastro</h5>
+                            <h5 class="card-title" onmouseover="changeTextElement(this)"
+                                onmouseout="backTextElement(this)">Dian Sastro</h5>
                             <div class="bintang">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -595,7 +597,8 @@
                     <div class="card rounded">
                         <img src="./assets/Dian Sastro.PNG" class="card-img-top p-3" alt="Dian Satro">
                         <div class="card-body">
-                            <h5 class="card-title">Dian Sastro</h5>
+                            <h5 class="card-title" onmouseover="changeTextElement(this)"
+                                onmouseout="backTextElement(this)">Dian Sastro</h5>
                             <div class="bintang">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -615,7 +618,8 @@
                     <div class="card rounded">
                         <img src="./assets/Dian Sastro.PNG" class="card-img-top p-3" alt="Dian Satro">
                         <div class="card-body">
-                            <h5 class="card-title">Dian Sastro</h5>
+                            <h5 class="card-title" onmouseover="changeTextElement(this)"
+                                onmouseout="backTextElement(this)">Dian Sastro</h5>
                             <div class="bintang">
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
@@ -651,7 +655,7 @@
             <div class="card border-0 " style="width: 40%; background-color: #f3efef;">
                 <div class="card-header border-0 " style="background-color: #f3efef;">Register Form</div>
                 <div class="card-body text-start">
-                    <form>
+                    <form action="#" method="post" onsubmit="validasi()">
                         <div class="form-group mt-3">
                             <label for="nama">Nama</label>
                             <input type="text" class="form-control" id="nama">
@@ -661,9 +665,8 @@
                             <input type="email" class="form-control" id="email">
                         </div>
                         <div class="form-group mt-3">
-                            <label for="password">Massage</label>
-                            <textarea class="form-control" placeholder="Leave a comment here"
-                                id="floatingTextarea"></textarea>
+                            <label for="massage">Massage</label>
+                            <textarea class="form-control" placeholder="Leave a comment here" id="massage"></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary mt-3">Register</button>
                     </form>
@@ -675,31 +678,37 @@
             <section class="mb-4">
                 <!-- Facebook -->
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-                    data-mdb-ripple-color="dark"><i class="fa fa-facebook-f"></i></a>
+                    data-mdb-ripple-color="dark" onmouseup="changeStyle(this)" onmouseleave="backStyle(this)"><i
+                        class="fa fa-facebook-f"></i></a>
 
                 <!-- Twitter -->
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-                    data-mdb-ripple-color="dark"><i class="fa fa-twitter"></i></a>
+                    data-mdb-ripple-color="dark" onmouseup="changeStyle(this)" onmouseleave="backStyle(this)"><i
+                        class="fa fa-twitter"></i></a>
 
                 <!-- Google -->
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-                    data-mdb-ripple-color="dark"><i class="fa fa-google"></i></a>
+                    data-mdb-ripple-color="dark" onmouseup="changeStyle(this)" onmouseleave="backStyle(this)"><i
+                        class="fa fa-google"></i></a>
 
                 <!-- Instagram -->
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-                    data-mdb-ripple-color="dark"><i class="fa fa-instagram"></i></a>
+                    data-mdb-ripple-color="dark" onmouseup="changeStyle(this)" onmouseleave="backStyle(this)"><i
+                        class="fa fa-instagram"></i></a>
 
                 <!-- Linkedin -->
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
-                    data-mdb-ripple-color="dark"><i class="fa fa-linkedin"></i></a>
+                    data-mdb-ripple-color="dark" onmouseup="changeStyle(this)" onmouseleave="backStyle(this)"><i
+                        class="fa fa-linkedin"></i></a>
                 <!-- Github -->
                 <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="08100000000" role="button"
-                    data-mdb-ripple-color="dark"><i class="fa fa-phone"></i></a>
+                    data-mdb-ripple-color="dark" onmouseup="changeStyle(this)" onmouseleave="backStyle(this)"><i
+                        class="fa fa-phone"></i></a>
             </section>
             <!-- Section: Social media -->
         </div>
         <!-- Grid container -->
-
+        <!-- DOM -->
         <!-- Copyright -->
         <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
             © 2022 Copyright:
@@ -707,6 +716,34 @@
         </div>
     </footer>
 
+    <script type="text/javascript">
+        function validasi() {
+            let nama = document.getElementById("nama").value;
+            let email = document.getElementById("email").value;
+            let massage = document.getElementById("massage").value;
+            if (nama != "" && email != "" && massage != "") {
+                alert('Massage berhasil diinput');
+            } else {
+                alert('Anda Harus mengisi form dengan lengkap !');
+            }
+        }
+
+        function changeTextElement(element) {
+            element.innerHTML = "Public Figure";
+        }
+
+        function backTextElement(element) {
+            element.innerHTML = "Dian Sastro";
+        }
+
+        function changeStyle(element) {
+            element.style.backgroundColor = "red";
+        }
+
+        function backStyle(element) {
+            element.style.backgroundColor = "#f3efef";
+        }
+    </script>
 
     <!-- penutup footer -->
 
